@@ -1,0 +1,15 @@
+{:deps true
+ :builds {:lib {:target :browser
+                :output-dir "resources/toto/public/js"
+                :modules {:toto {:entries [toto.core]}}}
+          :devcards {:target :browser
+                     :output-dir "resources/toto/public/js"
+                     :compiler-options {:devcards true}
+                     :modules {:devcards {:init-fn toto.core-devcards/main}}}
+          :app {:target :browser
+                :compiler-options {:output-feature-set :es8}
+                :output-dir "resources/toto/public/js"
+                :modules {:app {:entries [toto.app]
+                                :init-fn toto.app/init}}
+                :devtools {:after-load toto.app/init}}}
+ :dev-http {7125 ["resources/toto/public" "target/public"]}}
