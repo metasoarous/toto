@@ -139,7 +139,7 @@ Thanks for visiting.
 ```
 
 Toto goes a step further by attaching this document metadata as proper Clojure metadata on the loaded document.
-This means that you can use this data in the [template functions](/#template-functions) described above (see [below](/#multiple-build-specs) for examples).
+This means that you can use this data in the [template functions](#template-functions) described above (see [below](#multiple-build-specs) for examples).
 
 
 ### Multiple build specs
