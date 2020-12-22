@@ -17,7 +17,7 @@
 
 ## Overview
 
-Toto is a static site generation toolkit build in and for (predominantly, for now) Clojure.
+Toto is a static site generation toolkit build in and (predominantly) for Clojure.
 
 
 ### Features
