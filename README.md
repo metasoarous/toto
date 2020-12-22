@@ -105,7 +105,7 @@ This provides a really wonderful editing experience al. a Gatsby or Figwheel (on
 Once you've gotten going, you may wish to customize layout of your site a bit.
 Perhaps you would like to restrict the width of your main content.
 
-This can be accomplished with the `:template-fn` entry in your build spec.
+This can be accomplished with the `:template-fn` entry in your build spec:
 
 ```clojure
 (defn site-template [doc]
@@ -177,7 +177,8 @@ We can write a simple template function like so:
 ```
 
 The easiest way to apply this template to just the blog posts is to separate them out from the rest of the content so that we can easily apply one template to one set of files, and another to the rest.
-Imagining we reorganize the files like so:
+
+Imagine we reorganize the files like so:
 
 ```
 site-src
@@ -221,6 +222,8 @@ If you ever need to pass through static assets uncompiled you can use the `:as-a
     :as-assets? true}])
 ```
 
+In general, Toto will pass through files it doesn't know how to handle, but this directive can be helpful for (e.g.) json files which might otherwise be interpreted as hiccup.
+
 ### More...
 
 Other options passed through to the build specs will be passed through to the `compile` function.
@@ -257,6 +260,13 @@ When you're done, one of the easiest ways to deploy is with the excellent `surge
 You can also use GitHub Pages or S3 or really whatever if you prefer.
 The great thing about static sites is that they are easy and cheap to deploy and scale, so you have plenty of options at your disposal.
 
+
+## Thanks for checking out Toto!
+
+I'm looking forward to hearing what you think.
+
+
+<br/>
 
 ## Local CLJS development
 
