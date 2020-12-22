@@ -154,7 +154,7 @@ Given markdown like this::
 ---
 title: 'Why Clojure is so Awesome'
 published-at: '2020-12-20 11:24'
-tags: [pin-ctrl, clojure, strange-coop, physical-computing]
+tags: [clojure, data]
 ---
 
 Three simple (TM) words: **ITS JUST DATA**
