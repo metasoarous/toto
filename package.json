@@ -1,7 +1,7 @@
 {
-  "name": "oz",
-  "version": "1.6.0-alpha34",
-  "description": "The client side portion of Oz, your Clojure(Script) toolkit for dynamic, data-driven data visualizations",
+  "name": "toto",
+  "version": "0.0.1-alpha1",
+  "description": "Static site generation for Clojure",
   "keywords": [],
   "author": "Christopher Small",
   "license": "ISC",
@@ -17,6 +17,6 @@
   },
   "devDependencies": {
     "create-react-class": "15.6.3",
-    "shadow-cljs": "2.11.5"
+    "shadow-cljs": "^2.11.5"
   }
 }
