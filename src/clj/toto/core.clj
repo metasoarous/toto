@@ -31,15 +31,14 @@
   [f & args]
   (apply f (concat (butlast args) (flatten (into [] (last args))))))
 
-  
 
-(defn sample
+(defn ^:no-doc sample
   ([spec]
    (gen/sample (s/gen spec)))
   ([spec n]
    (gen/sample (s/gen spec) n)))
 
-(defn spy
+(defn ^:no-doc spy
   [x]
   (println x)
   x)
