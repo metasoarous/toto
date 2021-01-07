@@ -988,7 +988,7 @@
                   (when view?
                     (log/info "Updating live view")
                     (view! evaluation :host host :port port))
-                  (export! evaluation out-path)
+                  (export! evaluation out-path build-desc)
                   (swap! live/watchers update filename (partial merge {:last-contents contents})))))))))))
 
 
