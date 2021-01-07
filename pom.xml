@@ -3,7 +3,7 @@
   <groupId>metasoarous</groupId>
   <artifactId>toto</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1-alpha1</version>
+  <version>0.0.1-alpha2</version>
   <name>toto</name>
   <description>Simple but powerful static site generation in Clojure (with live code reloading!)</description>
   <url>http://github.com/metasoarous/toto</url>
@@ -17,7 +17,7 @@
     <url>https://github.com/metasoarous/toto</url>
     <connection>scm:git:git://github.com/metasoarous/toto.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/metasoarous/toto.git</developerConnection>
-    <tag>4f0291ddf3adb08c7488426fcdbfda2f42799bfe</tag>
+    <tag>340d6ca085735cdca68e29a1fdcedac5159c7dc4</tag>
   </scm>
   <build>
     <sourceDirectory>src/clj</sourceDirectory>
