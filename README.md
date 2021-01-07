@@ -184,8 +184,7 @@ Imagine we reorganize the files like so:
 site-src
 ├── pages
 │   ├── index.md
-│   ├── about.md
-│   └── blog
+│   └── about.md
 └── blog-posts
     ├── first-post.md
     ├── why-clojure-is-awesome.md
@@ -200,7 +199,7 @@ Then we can easily modify our build spec to take a vector of build specification
   [{:from "site-src/pages"
     :to "build/"
     :template-fn site-template}
-   {:from "site-src/blog"
+   {:from "site-src/blog-posts"
     :to "build/blog"
     :template-fn blog-template}])
 ```
